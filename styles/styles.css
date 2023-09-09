@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    color: white;
+    background-color: #23263a;
+}
+
+/*the homepage start here*/
+header{
+    background-color: #1f2235;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px; 
+    position: fixed;  
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+.navmenu li{
+    font-size: 20px;
+}
+
+.navmenu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.logo{
+    width: 90px;
+}
+
+.navmenu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navmenu li a:hover{
+    color:#FF4A57;
+    transition:1s ;
+}
+
+.media ul{
+    color:white;
+    display: flex;
+    gap: 20px; 
+    list-style: none;  
+}
+
+.media ul li{
+    border: 2px solid #FF4A57;
+    border-radius: 46%;
+    background:#1f2235 ;
+    font-size: 20px;
+    padding:10px 12px;
+}
+
+.media ul li:hover{
+    background-color: #FF4A57;
+}
+
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.textcontent{
+    margin-top: 300px;
+}
+
+.textarea h1{
+    font-size: 60px;
+    margin-top: 35px;
+}
+
+.textarea p{
+    font-size: 23px;
+    width: 550px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.picture{
+    height: 650px;
+    margin-top: 200px;
+}
+
+.btn button{
+    padding:15px 40px;
+    border:2px solid #FF4A57;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;  
+}
+
+#portfolio{
+    background-color: #1f2235;
+    margin-right: 20px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+#portfolio:hover{
+    background-color: #FF4A57;
+}
+
+#play{
+    background-color: #FF4A57;     
+}
+
+/*home section ends here */
+
+/*service section start here */
+.serviceintro{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.service{
+    background-color: #1f2235;
+    padding-bottom: 100px;
+    padding-top: 120px;
+}
+
+.service h4{
+    margin-bottom: 10px;
+    color: #FF4A57;
+}
+
+.service h2{
+    margin-bottom:10px ;
+    font-size: 60px;
+}
+
+.servicebody{
+    font-size: 15px;
+    color: white;
+}
+
+.upbody{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    gap: 30px;
+    margin-bottom:30px ;
+    margin-right: 50px;
+}
+
+.serviced{
+    padding: 60px 60px 60px 30px;  
+    width: 350px;
+    background-color: #23263A ;
+    border-radius: 20px;
+    color: #FF4A57;
+}
+
+.lowbody{
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    gap: 30px;
+    margin-right: 50px;
+}
+
+.service h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20PX;
+    color: #fff;
+}
+
+.service p{
+    font-size: 15px;
+    color: #fff;
+}
+
+.serviced i {
+    font-size: 50px;
+    /* color: #FF4A57; */
+}
+
